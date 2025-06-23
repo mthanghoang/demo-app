@@ -1,1 +1,8 @@
-
+image:
+  repository: mthanghoang/demo-frontend
+  tag: v1.0.0
+replicaCount: 1
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
